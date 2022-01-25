@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>                
+        <meta charset="UTF-8">
+        <title>Bienvenidxs a MercadoLiebre</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/normalize.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+<body>
+    <form action="/crear-producto" method="post" class="create-form">
+        <div class="control-formulario">
+            <label>Nombre y Apellido:</label>
+            <input type="text" name="nombre-apellido" class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Nombre de usuario:</label>
+            <input type="number" name="precio"class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento"class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Domicilio:</label>
+            <input type="text" name="domicilio" class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Queres comprar o vender?:</label>                
+            <input type="checkbox" name="tipo" class="control"> 
+            <input type="checkbox" name="tipo" class="control">                   
+        </div>        
+        <div class="control-formulario">
+            <label>Categorias de interés:</label>                          
+            <input type="checkbox" name="interes" class="control">Electro
+            <input type="checkbox" name="interes" class="control">Moda
+            <input type="checkbox" name="interes" class="control">Hogar
+            <input type="checkbox" name="interes" class="control">Juguetería
+            <input type="checkbox" name="interes" class="control">Vida sana                  
+        </div>        
+        <div class="control-formulario">
+            <label>Eliga su foto:</label>
+            <input type="file" name="foto" class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Contraseña:</label>
+            <input type="password" name="password" class="control">    
+        </div>
+        <div class="control-formulario">
+            <label>Confirmar contraseña:</label>
+            <input type="password" name="password-confirm" class="control">    
+        </div>        
+        <button type="reset" class="boton-formulario">Borrar</button> 
+        <button type="submit" class="boton-formulario">Guardar</button>                
+    </form>
+</body>
+</html>
