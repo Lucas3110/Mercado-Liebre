@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/css/normalize.css"> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">        
     </head>
     <body>
         <header>
@@ -16,10 +16,11 @@
                     <div class="logo"> 
                         <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
                     </div>
-                    <div class="form" action="#" method="GET">
-                        <span class="input">Buscar productos, marcas y más </span> 
+                    
+                    <form class="form" action="#" method="GET">                       
+                        <input type="text" name="buscar" placeholder="Buscar productos, marcas y más ">
                         <span class="submit" id="lupa"><i class="fa fa-search"></i></span>
-                    </div>
+                    </form>
                 </div>        
                 <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
             </div>
@@ -39,7 +40,7 @@
             <div class="burger-menu">
                 <i class="fa fa-bars burger"></i>
             </div>
-        </header>
+        </header>           
         <section class="banner">
             <img src="images/img-home-banner.jpg" alt="Banner de ofertas">
         </section>
