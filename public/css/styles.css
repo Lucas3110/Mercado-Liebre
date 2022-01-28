@@ -160,7 +160,15 @@ h3,
 .description{
     color: #666;
 }
+.description {
+    opacity: 0;
+    margin-top: 20px;
+}
 
+.description:hover {
+    opacity: 1;
+    margin-top: 20px;
+}
 section.banner img{
     width: 100%;
 }
@@ -207,7 +215,9 @@ main section article i,
     margin-top: -19px;
                  
 }
-
+main section article i:hover{
+    transform: rotate(-90deg);
+}
 .main-article{
     position:relative;    
 
@@ -220,17 +230,37 @@ main section article i,
 .container01 .discount{
     margin-left: 10px;
 }
+/* footer */
+
+footer {
+    background-color: #666;
+    height: 150px;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+}
 
 @media (min-width: 361px)
 {
-    .products article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .products article{        
         display: inline;
         width: 47%;
         margin: 12px 10px;
         box-sizing: border-box; 
     }   
-       
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
     
         .nav-container01{
             display: flex;
@@ -265,6 +295,9 @@ main section article i,
 {
     .description{
         visibility: hidden;
+    }
+    .description:hover{
+        visibility: visible;
     }
     .navbar{
         visibility: hidden;
