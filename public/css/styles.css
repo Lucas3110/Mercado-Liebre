@@ -253,14 +253,16 @@ footer {
     color: #fff;        
     font-size: 1.6em;
     gap: 12px;
+    text-align: center;
 }
 .flexItem h5{
     color: #666;
     font-size: 0.65em;
-    font-weight: bold;
+    font-weight: bold;    
 }
 .flexItem p{
     color:#000;
+    
 }
 
 .fa-credit-card{    
@@ -285,6 +287,8 @@ position: relative;
 top: 9px;
 transform: scale(1.0);
 }
+
+
 @media (min-width: 361px)
 {
     .products article{        
