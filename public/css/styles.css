@@ -4,6 +4,21 @@
         box-sizing: border-box;
 }
 
+.top-header{
+    position:relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;    
+    align-items: center;    
+}
+.top-header div img{
+    width: 100%;
+    height: 100px;
+}
+
+.top-header form{
+    align-self: center;    
+}
 .create-form{
     padding: 20px 15px;
 }
@@ -72,21 +87,6 @@ header div.logo{
     padding: 10px;   
 }
 
-.logo{    
-    animation-name: aumentar;
-    animation-duration: 450ms;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes aumentar{
-    0%{
-        transform: scale(1);
-    }
-
-    100%{
-        transform: scale(1.20);
-    }
-}
 
 #lupa{
     /* me falta separarlo de la barra de busqueda con flex*/
