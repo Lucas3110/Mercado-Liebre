@@ -233,22 +233,58 @@ main section article i:hover{
 /* footer */
 
 footer {
-    background-color: #666;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
     height: 150px;
 }
+    
+
 .flexBox{
     display: flex;
+    position: absolute;
+    width: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
 }
 .flexItem{
-    display: flex;
+    display: flex;    
     flex-direction: column;
     align-items: center;
-    color: #fff;
-    font-size: 2em;
+    color: #fff;        
+    font-size: 1.6em;
+    gap: 12px;
+}
+.flexItem h5{
+    color: #666;
+    font-size: 0.65em;
+    font-weight: bold;
+}
+.flexItem p{
+    color:#000;
 }
 
+.fa-credit-card{    
+    color: #1259c3;
+    position: relative; 
+    top: 10px;
+    transform: scale(1.0);
+    margin: auto;
+
+}
+
+.fa-gift {
+color: #1259c3;
+position: relative; 
+top: 10px;
+transform: scale(1.0);
+}
+
+.fa-user-shield{
+color: #1259c3;
+position: relative; 
+top: 9px;
+transform: scale(1.0);
+}
 @media (min-width: 361px)
 {
     .products article{        
